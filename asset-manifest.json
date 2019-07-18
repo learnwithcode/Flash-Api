@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Flash-Api/static/css/main.34de6062.chunk.css",
-    "main.js": "/Flash-Api/static/js/main.eff0070e.chunk.js",
-    "main.js.map": "/Flash-Api/static/js/main.eff0070e.chunk.js.map",
+    "main.js": "/Flash-Api/static/js/main.12a47ddf.chunk.js",
+    "main.js.map": "/Flash-Api/static/js/main.12a47ddf.chunk.js.map",
     "runtime~main.js": "/Flash-Api/static/js/runtime~main.5d0c9f23.js",
     "runtime~main.js.map": "/Flash-Api/static/js/runtime~main.5d0c9f23.js.map",
     "static/js/2.4d7aa1b9.chunk.js": "/Flash-Api/static/js/2.4d7aa1b9.chunk.js",
     "static/js/2.4d7aa1b9.chunk.js.map": "/Flash-Api/static/js/2.4d7aa1b9.chunk.js.map",
     "index.html": "/Flash-Api/index.html",
-    "precache-manifest.6b591e4a804933b60fef8e6ccfeaad65.js": "/Flash-Api/precache-manifest.6b591e4a804933b60fef8e6ccfeaad65.js",
+    "precache-manifest.70cd2e902dd3994b8a72efb4ef246d2e.js": "/Flash-Api/precache-manifest.70cd2e902dd3994b8a72efb4ef246d2e.js",
     "service-worker.js": "/Flash-Api/service-worker.js",
     "static/css/main.34de6062.chunk.css.map": "/Flash-Api/static/css/main.34de6062.chunk.css.map"
   }
