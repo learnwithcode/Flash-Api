@@ -18,6 +18,7 @@ class App extends React.Component {
       employee_id : '',
       services : '',
       token : '',
+      billing_amount:''
     
   }
 
@@ -29,6 +30,7 @@ class App extends React.Component {
         first_name : this.state.first_name,
         employee_id : this.state.employee_id,
         services : this.state.services,
+        billing_amount:this.state.billing_amount
       }
       const token = this.state.token
       const headers = {
@@ -90,6 +92,13 @@ class App extends React.Component {
           value={this.state.services} 
           onChange={this.onChange}
           type="text" name='services' className="form-control" id="services" placeholder="Enter Services"/>
+        </div>
+        <div className="form-group">
+          <label htmlFor="billing_amount">Billing Amount</label>
+          <input
+          value={this.state.billing_amount} 
+          onChange={this.onChange}
+          type="text" name='billing_amount' className="form-control" id="billing_amount" placeholder="Enter Billing Amount"/>
         </div>
       <button type="submit" className="btn btn-primary">Submit</button>
 
