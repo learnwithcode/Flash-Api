@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "db7edb464bab64b954ebb1bdf2d666e7",
+    "revision": "73400dcfb2bb6861386e7f6b358b8a59",
     "url": "/Flash-Api/index.html"
   },
   {
-    "revision": "44e8b81382d02dcbd8f9",
+    "revision": "3ced1cd249198f8ddc6a",
     "url": "/Flash-Api/static/css/main.34de6062.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Flash-Api/static/js/2.4b10b91c.chunk.js"
   },
   {
-    "revision": "44e8b81382d02dcbd8f9",
-    "url": "/Flash-Api/static/js/main.333eddb7.chunk.js"
+    "revision": "3ced1cd249198f8ddc6a",
+    "url": "/Flash-Api/static/js/main.97259e49.chunk.js"
   },
   {
     "revision": "ca4129c6b8bd65ee3114",
