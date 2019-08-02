@@ -18,7 +18,9 @@ class App extends React.Component {
       employee_id : '',
       services : '',
       token : '',
-      billing_amount:''
+      billing_amount:'',
+      is_flash:false,
+      is_sms:false
     
   }
 
@@ -30,7 +32,9 @@ class App extends React.Component {
         first_name : this.state.first_name,
         employee_id : this.state.employee_id,
         services : this.state.services,
-        billing_amount:this.state.billing_amount
+        billing_amount:this.state.billing_amount,
+        is_flash:this.state.is_flash,
+        is_sms:this.state.is_sms
       }
       const token = this.state.token
       const headers = {
@@ -51,9 +55,16 @@ class App extends React.Component {
   }
   onChange = e => {
     this.setState({[e.target.name]: e.target.value})
-}
+  }
+  onCheckBoxChange = e => {
+    this.setState({is_flash:!this.state.is_flash})
+  }
+  onSmsChange = e => {
+    this.setState({is_sms:!this.state.is_sms})
+  }
   render () {
     return (
+      <div className="container">
       <form onSubmit={(event) => this.onFormSubmit(event)}>
 
         <div className="form-group">
@@ -100,9 +111,24 @@ class App extends React.Component {
           onChange={this.onChange}
           type="text" name='billing_amount' className="form-control" id="billing_amount" placeholder="Enter Billing Amount"/>
         </div>
+        <div className="form-check">
+            <input 
+              value={this.state.is_flash} 
+              onChange={this.onCheckBoxChange}
+            type="checkbox" className="form-check-input" id="exampleCheck1"/>
+            <label className="form-check-label" htmlFor="exampleCheck1">Send Flash</label>
+        </div>
+        <div className="form-check">
+            <input 
+              value={this.state.is_sms} 
+              onChange={this.onSmsChange}
+            type="checkbox" className="form-check-input" id="exampleCheck2"/>
+            <label className="form-check-label" htmlFor="exampleCheck2">Send Sms</label>
+        </div>
       <button type="submit" className="btn btn-primary">Submit</button>
 
       </form>
+      </div>
     )
   }
 }
